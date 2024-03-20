@@ -99,7 +99,7 @@ export default function App() {
       </div>
       {cit ? (
         <div>
-          You selected {con}, {sat}, {cit}
+          You selected {cit}, {sat}, {con} 
         </div>
       ):<div></div>}
     </div>
