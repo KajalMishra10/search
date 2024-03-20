@@ -100,11 +100,11 @@ export default function App() {
           ))}
         </select>
       </div>
-      {cit && (
+      {cit? (
         <div>
           You selected {con},{sat},{cit}
         </div>
-      )}
+      ):""}
     </div>
   );
 }
